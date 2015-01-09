@@ -1,0 +1,27 @@
+#header.header
+  .column-wrapper
+    .column.col-4
+      .logo
+    .header-nav.column.col-4
+      = link_to "Discover", "#", class: "header-link"
+      a.header-link.open-menu href="#" Tools
+      .menu
+        ul.menu-list.arrow.arrow-top-center
+          li.menu-item = link_to "3D roomplanner", "#", class: "menu-link"
+          li.menu-item = link_to "Moodboard Creator", "#", class: "menu-link"
+          li.menu-item = link_to "Dulux Color Extractor", "#", class: "menu-link"
+      = link_to "Contests", "#", class: "header-link"
+    .user-menu.column.col-4
+      .user
+        .user-wrapper
+          .avatar.avatar-small
+            img src="assets/test-avatar.jpeg"
+          a.header-link.open-menu href="#" User Name
+          .menu
+            ul.menu-list.arrow.arrow-top-right
+              li.menu-item = link_to "Your Profile", "#", class: "menu-link"
+              li.menu-item = link_to "Edit Your Profile", "#", class: "menu-link"
+              li.menu-item = link_to "Buy Credits", "#", class: "menu-link"
+              li.menu-item = link_to "Transactions", "#", class: "menu-link"
+              li.menu-item = link_to "Forum", "#", class: "menu-link"
+              li.menu-item = link_to "Log Out", "#", class: "menu-link"
