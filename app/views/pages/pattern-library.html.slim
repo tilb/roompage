@@ -23,6 +23,16 @@
       li
         a href="#modals" Modals
 .clearfix
+
+
+
+#magic-number.section
+  .col-9.pos-center
+    h2.centered The Magic Number 6
+    p 6 is not only the number of the beast, but also our number of harmony. Every size we use on our website should be related to the scale of 6.
+
+
+
 #graphical-elements
   .col-9.pos-center
     h2.centered Graphical Elements
@@ -84,6 +94,10 @@
           img src="assets/test-avatar.jpeg"
       td
         p Avatar with a white border (for dark backgrounds)
+.col-7.pos-center
+  h3 Default image size
+  p Images get a default width of 100%. Because images are contained in a column (which has a width in pixels), we make sure by giving images a default width of 100% that they are always perfectly aligned within the grid.
+  .span.comment-alert Please ellaborate on this.
 
 #typography.section
 .col-9.pos-center
@@ -153,6 +167,17 @@
           .centered This is centered text
         td When you want to align a text in the center, yu can simply do that by adding the .centered class. Works only on a display:block element.
       
+
+
+
+#grid.section
+  .col-9.pos-center
+    h2.centered Grid
+  .col-7.pos-center
+    p Tijdens het ontwerpen van de nieuwe Roomstyler pages heb ik met verschillende grids geexperimenteerd. In het begin wilde ik vooral de 12-column grid gebruiken waarbij elke column 48 pixels breed is en de gutter 36 pixels (48 en 36 passen weer in de schaal van 6, die ik overal gebruik). Op een gegeven moment ben ik gaan kijken naar hoe de content zich verhoudt tot het scherm in plaats van tot de grid. Ik kwam toen tot de conclusie dat het goed zou zijn om content een dynamische grid te geven. Ik zou graag deze dynamische grid op twee manieren opbouwen. De eerste is device width in combinatie met de gouden ratio. Om te illustreren; laten we een laptop van 1280 pixels breed nemen. Een column op zo'n laptop zou een breedte kunnen hebben van (1280/1,618=) 791 pixels of juist de restvorm hiervan, namelijk (1280-(1280/1,618)=) 489 pixels. Nou willen we ook dat de grid zich altijd verhoudt tot het cijfer 6, wat weer onze harmoniecijfer is. Dit betekent dat de column niet 791 pixels maar 780 pixels breed moet zijn en niet 489 pixels maar 480 pixels. Goed, dit is vrij complex maar wel iets wat me interessant lijkt op een gegeven moment uit te voeren.
+
+
+
 #buttons.section
   .col-9.pos-center
     h2.centered Buttons
